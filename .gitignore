@@ -83,3 +83,18 @@ fabric.properties
 
 /jdk8study.iml
 /.idea/
+/.idea/compiler.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+.gitignore
+.idea/compiler.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+jdk8study.iml
+pom.xml
+src/
+src/main/resources/
+src/test/
