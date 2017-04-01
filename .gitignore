@@ -81,3 +81,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+/jdk8study.iml
+/.idea/
