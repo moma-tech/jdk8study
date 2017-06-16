@@ -22,13 +22,14 @@ public class FunctinonInObject {
     private String call() {
         String name = "Ivan";
         Function<String, String> call = FunctinonInObject::greeting;
-        return doIt(call,name);
+        return doIt(call, name);
     }
 
     private String callLambda() {
-        String name="Ivan";
-        return doIt((a)->"Greeting "+a,name);
+        String name = "Ivan";
+        return doIt((a) -> "Greeting " + a, name);
     }
+
     // test
     public static void main(String[] args) {
         FunctinonInObject fio = new FunctinonInObject();
