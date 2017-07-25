@@ -9,9 +9,5 @@ public class AmnimalEqual {
         System.out.println("Animals are equal: " + pig == dog);
         System.out.println("Animals are equal: " + (pig == dog));
         System.out.println("Animals are equal: " + pig.equals(dog));
-
-        int max = Integer.MAX_VALUE;
-        int o = max + 10;
-        System.out.println(o);
     }
 }
