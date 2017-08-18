@@ -1,4 +1,6 @@
 /**
+ *
+ * Java Only pass value or copy, so swap actually didn't change the value
  * Created by Ivan on 8/14/2017.
  */
 public class SortColors {
@@ -37,18 +39,18 @@ public class SortColors {
         }
     }
 
-    public void swap(Integer a, Integer b){
+     void swap(Integer a, Integer b){
         int temp = a;
         a = b;
         b = temp;
     }
-    public void swapString(String a, String b) {
+     void swapString(String a, String b) {
         String temp = a;
         a = b;
         b = temp;
     }
 
-    public void swapPerson(Person a, Person b) {
+     void swapPerson(Person a, Person b) {
         Person temp = a;
         a = b;
         b = temp;
