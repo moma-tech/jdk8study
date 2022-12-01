@@ -1,3 +1,5 @@
+package scratches;
+
 import java.math.BigDecimal;
 
 /**

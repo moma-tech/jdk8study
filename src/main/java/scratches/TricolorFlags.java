@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  * swap flag
  * Created by ivan on 17-7-26.

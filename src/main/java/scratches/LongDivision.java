@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  * Long Division with data type
  * Created by ivan on 17-6-15.

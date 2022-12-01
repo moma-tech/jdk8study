@@ -1,3 +1,5 @@
+package scratches;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,7 +8,8 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * Connection Stream
+ * scraches.Connection Stream
+ * Http Url Connecition
  * Created by ivan on 17-6-15.
  **/
 public class Connection {
@@ -33,4 +36,7 @@ public class Connection {
             e.printStackTrace();
         }
     }
+    /*
+    ~~~THE HTML~~~
+     */
 }

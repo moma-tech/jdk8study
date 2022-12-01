@@ -1,4 +1,6 @@
-import com.sun.org.apache.xpath.internal.SourceTree;
+package scratches;
+
+
 
 /**
  * Test if its odd no

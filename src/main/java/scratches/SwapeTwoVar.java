@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  * Swape two var without temp
  * Created by ivan on 17-6-15.

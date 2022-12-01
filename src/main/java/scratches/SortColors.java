@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  *
  * Java Only pass value or copy, so swap actually didn't change the value

@@ -1,3 +1,5 @@
+package scratches;
+
 public class SequenceSumTest {
     public static void main(String[] args) {
         int x = 2, y = 1, t;

@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  * Print String
  * Created by ivan on 17-6-15.

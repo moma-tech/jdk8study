@@ -1,3 +1,5 @@
+package scratches;
+
 /**
  * Volatile Test Showcase
  * Created by ivan on 17-5-11.
