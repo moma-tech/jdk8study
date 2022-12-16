@@ -5,7 +5,7 @@ import onjava_2.tools.Enums;
 public class AllInOne {
   public static void main(String[] args) {
     for (Starter starter : Starter.values()) {
-      System.out.println(starter.pick());
+      System.out.println(starter + " : " + starter.pick());
     }
   }
 

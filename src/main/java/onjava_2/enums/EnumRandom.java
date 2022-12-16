@@ -11,8 +11,8 @@ public class EnumRandom {
     EnumPicker enumPicker = new EnumPicker();
     for (int i = 0; i < 5; i++) {
       mine = armoryPicker.get();
-      //System.out.println(mine);
-      System.out.println(enumPicker.get(Armory.class));
+      System.out.println("Armory Picker: " + mine);
+      System.out.println("General Picker: " + enumPicker.get(Armory.class));
     }
   }
 }
@@ -31,5 +31,9 @@ class EnumPicker {
 
   public <T extends Enum> T get(Class<T> t) {
     return t.getEnumConstants()[secureRandom.nextInt(t.getEnumConstants().length)];
+  }
+
+  public <T> T get(T[] arrays) {
+    return arrays[secureRandom.nextInt(arrays.length)];
   }
 }
